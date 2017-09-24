@@ -1,1 +1,59 @@
 /* style.css */
+body {
+  margin: 0;
+
+}
+
+.page {
+  width: 940px;
+  margin: auto;
+}
+
+.ligne {
+  display: flex;
+  flex-direction: row;
+}
+
+.col-25 {
+  width: 25%;
+}
+.col-33 {
+  width: 33.33%;
+}
+.col-50 {
+  width: 50%;
+}
+
+div.page {
+  margin: auto;
+  width: 940px;
+}
+
+/* Header. */
+header {
+  height: 741px;
+  padding: 50px 0;
+  background-color: #fcdb00;
+}
+/* Barre de navigation. */
+div.nav-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+/* Barre pour la présentation. */
+div.p-bar {
+  display: flex;
+  flex-direction: row;
+}
+
+/* Section. */
+section {
+  height: 772px;
+}
+
+/* Footer. */
+footer {
+  height: 767px;
+  background-color: #232527;
+}
